@@ -1,0 +1,38 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #333333;
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--restart{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background: black;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Scanner.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Rembo Track</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img class="logo" src="./images/logo.png" alt="Rembo Track">
+        </a>
+        <h1 class="heading">Rembo Track</h1>
+        <i class='bx bx-user'></i>
+    </header>
+    <div id="drop-zone">Drag and drop files here or click to upload</div>
+    <input type="file" id="file-input" multiple>
+    <button id="webcam-btn">Use Webcam</button>
+    <div id="webcam-container">
+        <video id="video" autoplay></video>
+        <button id="capture-btn">Capture Photo</button>
+    </div>
+</body>
+<script src="./Scanner.js"></script>
+</html>
